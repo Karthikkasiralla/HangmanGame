@@ -17,7 +17,10 @@ print("Welcome to Hangman! Let's play! 🎮")
 
 # Initial game setup
 lives = 5
-words_list = ["java", "virat", "championstrophy", "india", "coding", "python", "hangman", "cinema", "music", "gaming", "cricket"]
+words_list = ["java", "virat", "championstrophy", "india", "coding", "python", "hangman", "cinema", "music", "gaming", "cricket",
+              "football", "technology", "education", "science", "travel", "books", "artificialintelligence",
+              "machinelearning", "sports", "innovation", "fitness", "nature", "exploration", "programming", "development",
+              "hacking", "chess", "movies", "photography", "food", "astronomy", "space", "history", "language", "culture"]
 random_choice = random.choice(words_list)
 word_len = len(random_choice)
 fill = "_" * word_len
